@@ -12,7 +12,7 @@ public class Vetores1 {
         int n = scan.nextInt();
         double [] vect = new double[n]; // vetor do tipo double com tamanho de n 
 
-        for(int i = 0; i < n; i++) { // percorre o array
+        for(int i = 0; i < vect.length; i++) { // percorre o array
             vect[i] = scan.nextDouble();
         }
 
