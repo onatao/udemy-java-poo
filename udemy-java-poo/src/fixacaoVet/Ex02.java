@@ -27,6 +27,7 @@ public class Ex02 {
 
         System.out.println("Soma dos valores: " + sum);
         System.out.println("Média dos valores: " + avg);
+        scan.close();
     }
     
 }

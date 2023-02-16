@@ -27,7 +27,7 @@ public class Ex01 {
         double avg = sum / n;
         System.out.println(avg);
     
-        
+        scan.close();    
 
     }
     
