@@ -6,13 +6,13 @@ public class Ex04 {
         Scanner scan = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        System.out.println("Quantos números serão digitados? ");
+        System.out.println("How much numbers will be used? ");
         int n = scan.nextInt();
         
 
         double[] number = new double[n];
         for (int i = 0; i < number.length; i++) {
-            System.out.println("Digite o número: ");
+            System.out.println("Type a number: ");
             number[i] = scan.nextInt();
         }
 
@@ -26,8 +26,8 @@ public class Ex04 {
             }
         }
 
-        System.out.println("Maior número digitado: " + h);
-        System.out.println("Posição do maior número: " + p);
+        System.out.println("Highest number: " + h);
+        System.out.println("number position: " + p);
 
     }
     
