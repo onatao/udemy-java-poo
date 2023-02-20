@@ -18,7 +18,7 @@ public class MatrizProp {
             }
         }
         
-        System.out.println("Digite o elemento da matriz: ");
+        System.out.println("Number: ");
         int x = scan.nextInt();
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
