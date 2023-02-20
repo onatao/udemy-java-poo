@@ -38,9 +38,7 @@ public class MatrizProp {
                 }
             }
         }
-
         scan.close();
-
     }
     
 }
